@@ -31,7 +31,7 @@ except:
 
 # 读取模型质量范围字典
 # 0: [0, 0.094]
-mass_range_dict = joblib.load(r'旧_dict\\模型质量范围字典.joblib')
+mass_range_dict = joblib.load(r'dict\\模型质量范围字典.joblib')
 
 def get_mz_inten_list(str):
     '''
